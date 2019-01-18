@@ -2,7 +2,7 @@
 
 > Easy CleverReach v3 integration for PHP
 
-[![Build](https://github.com/baorv/cleverreach/badges/master/build.svg)](https://github.com/baorv/cleverreach)
+[![Build Status](https://travis-ci.org/baorv/cleverreach.svg?branch=master)](https://github.com/baorv/cleverreach)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 - [Requirements](#requirements)
