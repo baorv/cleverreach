@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  backupGlobals="false"
+  backupStaticAttributes="false"
+  bootstrap="vendor/autoload.php"
+  colors="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+  stopOnFailure="false"
+>
+  <testsuites>
+    <testsuite name="Package Test Suite">
+      <directory suffix="Test.php">./tests</directory>
+    </testsuite>
+  </testsuites>
+  <filter>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+      <directory suffix=".php">./src</directory>
+    </whitelist>
+  </filter>
+  <php>
+    <env name="API_KEY" value="aIRqVxXm19"/>
+    <env name="API_SECRET" value="ex7r8yxLY2QbP5ACawx6RHPI7Kg57hfl"/>
+    <env name="ACCESS_TOKEN"
+         value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJyZXN0LmNsZXZlcnJlYWNoLmNvbSIsImlhdCI6MTU0NzYxNDg2MSwiZXhwIjoxNTc5MTUwODYxLCJjbGllbnRfaWQiOjIxNDU2NSwic2hhcmQiOiJzaGFyZDEyIiwiem9uZSI6NCwidXNlcl9pZCI6MCwibG9naW4iOiJvYXV0aC1hSVJxVnhYbTE5Iiwicm9sZSI6InVzZXIiLCJzY29wZXMiOiJvYV9iYXNpYyBvYV9yZWNlaXZlcnMgb2FfcmVwb3J0cyBvYV9mb3JtcyBvYV9tYWlsaW5ncyIsImluZGVudGlmaWVyIjoic3lzdGVtIiwiY2FsbGVyIjo1fQ.IGDGCt5sLqysbHY8lC6zGmmRBRJtxH0AEZgCWOw0KNE"/>
+  </php>
+</phpunit>
